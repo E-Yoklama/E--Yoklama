@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTAWESOMECSS-->
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    
+    <title>E YOKLAMA</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+    <!-- HEADER--> 
+    <header class="main-header">
+
+       
+            <a href="#" ><img src="logoyap.png" class="logo"></a>
+
+        <!-- top HEADER -->
+        <div class ="top-header"></div>
+            
+                        <ul class="top-menu">
+                            <li><a href="#">HAKKINDA</a></li>
+                            <li><a href="#">İLETİŞİM</a></li>
+                        </ul> 
+                    
+               
+           
+
+    </header>
+    <div class="content">
+        <div class=" textBox">
+            <h2>E-YOKLAMA</h2>
+            <p>kağıttan dijitale</p>
+            <span>  </span>
+            <a href="#">GİRİŞ   YAP</a>
+        </div>
+    </div>
+    <div class=" imgBox">
+        <img src="Adsız_tasarım__2_-removebg-preview (1).png" class="PC">
+    </div>
+</section>   
+<script type="text/javascript">
+    /**function imgSlider(anything)**/
+</script> 
+</body>
+</html>
+
+
+
+//live sass compiler sayesinde scss kodları css formatına getiriliyor.
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@200&display=swap');
+
+/**VARİABLE(tekrar takrar kullanacağımız şeyleri değişkene attım) **/
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Dosis', sans-serif;
+$grey-color : #696969;
+$black-color:  #000000;
+$red-color:  #8B0000;
+$white-color :#FFFFFF;
+
+/**GENERAL SETTİNGS**/
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+   
+    font-size:20px;
+    margin: 0;
+    font-family: $primary-font;
+    box-sizing: border-box;
+    
+}
+
+section{
+    position: relative;
+    width: 85%;
+    min-height:100vh ;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $white-color;
+    
+}
+.circle{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:$red-color;
+    clip-path: circle(600px at right 800px);
+    
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    }
+    
+/**logo**/
+header .logo{
+    position: relative;
+    max-width: 100px;
+}
+header ul{
+    position: relative;
+    display: flex;
+
+    }
+    header ul li{
+        list-style: none;
+/**yanbar**/
+    }
+    header ul li a{
+        display:inline-block ;
+        color: $grey-color;
+        font-family: $secondary-font;
+        font-weight: 800;
+        margin-left: 100px;
+        text-decoration: none ;
+    }
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 10000px;
+}
+/**eyoklama yazısı**/
+.content .textBox h2{
+    color:$black-color;
+    font-size: 80px;;
+    line-height: 100px;
+    font-weight: 5000;
+}
+/**kağıttan**/
+.content .textBox p{
+    color:$grey-color;
+    font-size :50px;
+    font-weight:300;
+}
+/**dijitale**/
+.content .textBox span{
+    color:$grey-color ;
+    font-size: 50px;
+    font-weight:300;
+}
+.content .textBox a{
+    display:inline-block;
+    margin-top:20px;
+    padding: 8px 10px;
+    background: white-color;
+    border-radius: 600px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-decoration: none;
+    color:$red-color;
+    transition: color 0.4s linear;;
+}
+
+
+
+.content .imgBox{
+    width: 600px;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    
+   
+}
+.content .imgBox img{
+   max-width: 140px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
