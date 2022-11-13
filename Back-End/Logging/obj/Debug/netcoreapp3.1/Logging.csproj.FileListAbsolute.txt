@@ -1,0 +1,10 @@
+C:\Users\seyit\source\repos\E-Yoklama\Logging\bin\Debug\netcoreapp3.1\Logging.deps.json
+C:\Users\seyit\source\repos\E-Yoklama\Logging\bin\Debug\netcoreapp3.1\Logging.dll
+C:\Users\seyit\source\repos\E-Yoklama\Logging\bin\Debug\netcoreapp3.1\Logging.pdb
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.AssemblyReference.cache
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfoInputs.cache
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfo.cs
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.CoreCompileInputs.cache
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.dll
+C:\Users\seyit\source\repos\E-Yoklama\Logging\obj\Debug\netcoreapp3.1\Logging.pdb
